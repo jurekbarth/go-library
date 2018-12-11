@@ -1,15 +1,16 @@
 {
-  "name": "go-node",
-  "version": "1.0.0",
+  "name": "go-library",
+  "version": "0.0.10",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "rpgo"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "golang"
+  ],
+  "author": "post@jurekbarth.de",
+  "license": "MIT",
   "dependencies": {
+    "tar-stream": "^1.6.2",
+    "unzip-stream": "^0.3.0",
     "zlib": "^1.0.5"
   }
 }
